@@ -1,5 +1,7 @@
 # incus-guestapi
 
+[![ Godoc Reference ][pkg.go.dev_img  ]][pkg.go.dev  ]
+
 A tiny package for communicating with the [Incus instance API](https://linuxcontainers.org/incus/docs/main/dev-incus/#id2).
 
 It has a single dependency (nhooyr.io/websocket) to handle real time events. You can use this package directly or as a reference for your own programs.
