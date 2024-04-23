@@ -2,6 +2,9 @@
 
 [![ Godoc Reference ][pkg.go.dev_img  ]][pkg.go.dev  ]
 
+[pkg.go.dev]:     https://pkg.go.dev/github.com/shellhazard/incus-guestapi
+[pkg.go.dev_img]: https://img.shields.io/badge/%E2%80%8B-reference-007d9c?logo=go&logoColor=white&style=flat-square
+
 A tiny package for communicating with the [Incus instance API](https://linuxcontainers.org/incus/docs/main/dev-incus/#id2).
 
 It has a single dependency (nhooyr.io/websocket) to handle real time events. You can use this package directly or as a reference for your own programs.
