@@ -10,7 +10,16 @@ It has a single dependency (nhooyr.io/websocket) to handle real time events. You
 go get github.com/shellhazard/incus-guestapi@latest
 ```
 
+## Purpose
+
+By far the most practical reason to use this is for managing application config. You can pull config values on startup then use `ListenForEvents` to monitor for any changes to the instance configuration in real time - see the example below.
+
 ## Usage example
+
+Run the below program inside an Incus instance, then try:
+```sh
+incus config set instance-name user.secret_config_key=secretvalue
+```
 
 ```go
 package main
